@@ -1,0 +1,65 @@
+html {
+    background-color: rgb(255, 143, 253);
+    font-family: "meiryo-ui", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+code {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+.site-header {
+    background-color: rgb(244, 158, 78);
+    border-radius: 20px 20px 0 0;
+    padding: 20px 20px 0 20px;
+    color: aliceblue;
+}
+
+h2 {
+    color: rgb(35, 144, 35);
+    font-family: "meiryo-ui", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.site-main {
+background-color: beige;
+border-radius: 0 0 20px 20px;
+padding: 20px;
+}
+
+.site-nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 25px 0 0 0;
+    gap: 4px;
+    text-align: center;
+    font-family: "meiryo-ui", sans-serif;
+font-weight: 700;
+font-style: normal;
+    
+}
+
+.site-nav li {
+    flex: 1 1 0;
+}
+
+.nav-link {
+    background-color: rgb(223, 78, 21);
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.nav-link:hover {
+    background-color: black;
+}
+
+
